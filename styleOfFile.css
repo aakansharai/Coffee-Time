@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.first{
+    position: relative;
+    width: 98.8vw;
+    height: 87vh;
+    background-image: url('cup-ge8cae1c92_1280 (convert.io) (1).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;  
+}
+.first h1{
+    position: absolute;
+    color: aliceblue;
+    bottom: 15vh;
+    left: 8vw;  
+    font-size: 90px;
+    font-family: 'Lobster', cursive;
+
+}
+.first p{
+    position: absolute;
+    color: aliceblue;
+    bottom: 13vh;
+    left: 18vw;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.nav{
+    display: flex;
+    right: 20px;
+    color: rgb(5, 5, 5);
+    position: sticky;
+    top: 0px;
+    font-family: 'Cairo', sans-serif;
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+}
+/* .divi-list:hover{
+    background-color: rgb(204, 124, 44);
+
+} */
+.li {
+    padding: 20px 40px;
+    /* margin: 2px; */
+}
+
+.li:hover{
+    background-color: rgb(204, 124, 44);
+}
+ 
+.nav-div{   
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: white;
+}
+.nav li{
+    list-style: none;
+}
+
+.home{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+}
+.home header{
+    text-align: center;
+    margin-top: 6vh;
+}
+.home p{
+    margin-top: 5vh;
+}
+.content{
+    padding: 20px;
+    width: 40%;
+    font-family: 'Cairo', sans-serif;
+
+}
+#left{
+    text-align: center;
+    font-size: 18px;
+}
+
+.second{
+    background-image: url('cup3.jpg');
+    position: relative;
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%; 
+}
+
+
+/* Problem started from here  */
+
+.title {
+    text-align: center;
+    font-family: 'Cairo', sans-serif;
+}
+.title h2{
+    font-size: 30px;
+}
+/* hr{
+    height: 1px;
+} */
+
+
+.menu-container{
+    display: flex;
+    justify-content: start;
+}
+.menu-container{
+    text-align: center;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.item{
+    width: 100%;
+    padding: 3vh 3vw;
+    text-align: center;
+}
+
+.item img{
+    height: 20vh;
+    width: 10vw;
+    margin: 3vh 0vw;
+    border-radius: 25px 0px 25px 0px;
+    border: 2px double grey;
+}
+
+.menu-text{
+    font-family: 'Cairo', sans-serif;
+    font-size: 1vw;
+    display: inline;
+}
+.btn{
+    display: block;
+    margin-left: 10.1vw;
+    padding: 0vh 0.5vw;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Dongle', sans-serif;
+}
+button:hover{
+    background-color: darkgoldenrod;
+    overflow: hidden;
+    color: aliceblue;
+    cursor: pointer;
+}
+.item img{
+    transform: scale(1);
+    transition: all 0.5s;
+
+}
+.item img:hover{
+    transform: scale(1.08);
+}
+
+/* End ,till now */
+
+
+.third{
+    background-image: url('picture-replaced2.jpg');
+    position: relative;
+    width: 100%;
+    height: 88vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%; 
+}
+
+.history{
+    height: 100vh;
+    border: 2px solid greenyellow;
+}
+
+
+/* Responsive */
+
+@media (max-width: 1000px)
+{
+    .first h1{
+        color: black;
+    }
+}
+@media (max-width:800px)
+{
+
+}
