@@ -7,7 +7,7 @@
     position: relative;
     width: 98.8vw;
     height: 87vh;
-    background-image: url('cup-ge8cae1c92_1280 (convert.io) (1).jpg');
+    background-image: url('media/cup-ge8cae1c92_1280 (convert.io) (1).jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100%;  
@@ -92,7 +92,7 @@
 }
 
 .second{
-    background-image: url('cup3.jpg');
+    background-image: url('media/cup3.jpg');
     position: relative;
     width: 100%;
     height: 88vh;
@@ -172,7 +172,7 @@ button:hover{
 
 
 .third{
-    background-image: url('picture-replaced2.jpg');
+    background-image: url('media/picture-replaced2.jpg');
     position: relative;
     width: 100%;
     height: 88vh;
